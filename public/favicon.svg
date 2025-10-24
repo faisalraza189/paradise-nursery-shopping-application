@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .plant { fill: #4CAF50; }
+      .pot { fill: #8D6E63; }
+    </style>
+  </defs>
+  <!-- Pot -->
+  <path class="pot" d="M30 70 L25 90 L75 90 L70 70 Z"/>
+  <rect class="pot" x="28" y="65" width="44" height="8" rx="2"/>
+  
+  <!-- Plant leaves -->
+  <ellipse class="plant" cx="35" cy="50" rx="12" ry="20" transform="rotate(-30 35 50)"/>
+  <ellipse class="plant" cx="50" cy="45" rx="12" ry="22" transform="rotate(-10 50 45)"/>
+  <ellipse class="plant" cx="65" cy="50" rx="12" ry="20" transform="rotate(30 65 50)"/>
+  
+  <!-- Stem -->
+  <rect class="plant" x="48" y="55" width="4" height="15" rx="2"/>
+</svg>
