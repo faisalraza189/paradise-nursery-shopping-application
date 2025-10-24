@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { CartProvider } from './context/CartContext';
 import LandingPage from './pages/LandingPage';
 import ProductListingPage from './pages/ProductListingPage';
